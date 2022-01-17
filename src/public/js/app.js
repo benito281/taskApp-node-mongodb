@@ -81,8 +81,8 @@ const viewTasks = async () => {
         <td>${item.title}</td>
         <td>${item.description}</td>
         <td>
-            <button class="btn btn-warning edit-task" onclick="editTask('${item._id}','${item.title}', '${item.description}')">Update</button>
-            <button class="btn btn-danger" onclick="modalDelete('${item._id}')">Delete</button>
+            <button class="btn btn-warning edit-task" onclick="editTask('${item._id}','${item.title}', '${item.description}')"><i class="fas fa-edit"></i></button>
+            <button class="btn btn-danger" onclick="modalDelete('${item._id}')"><i class="far fa-trash-alt"></i></button>
         </td>
         </tr>`
     });
